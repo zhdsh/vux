@@ -2,7 +2,7 @@
 	<div>
 		<input type="text" v-model="username" v-focus /><br />
 		原始值:{{ username }}<br />
-		首字母大写: {{ username | capitalize }}<br />
+		<!--首字母大写: {{ username | capitalize }}<br />-->
 		全大写:{{ username | aA(true) }}<br />
 		全小写:{{ username | aA(false) }}<br />
 		<!--<h1 v-zds-text="username | capitalize"></h1>-->
