@@ -3,8 +3,7 @@
     "name": {
       "type": "string",
       "required": true,
-      "message": "项目名称",
-      "default": "zds"
+      "message": "项目名称"
     },
     "version": {
       "type": "string",
