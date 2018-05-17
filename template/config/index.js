@@ -1,9 +1,9 @@
 'use strict'
 // Template version: 1.2.4
 // see http://vuejs-templates.github.io/webpack for documentation.
-import proxyTable from './proxyTable'
 
 const path = require('path')
+const proxyTable = require('./proxyTable')
 
 module.exports = {
   dev: {
