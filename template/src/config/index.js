@@ -3,5 +3,5 @@ const config = {
 	"useCar": "https://mall.roamingman.cn"
 }
 
-export default config;
+//export default config;
 module.exports = config;
