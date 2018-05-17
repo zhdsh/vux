@@ -13,7 +13,8 @@
     "description": {
       "type": "string",
       "required": false,
-      "message": "给你的项目加点描述"
+      "message": "给你的项目加点描述",
+      "default": "solid"
     },
     "author": {
       "type": "string",
