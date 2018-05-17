@@ -1,6 +1,5 @@
 
 const filters = {
-	//首字母大写
 	capitalize: function(value) {
 		if (!value){
 			return '';
@@ -8,7 +7,6 @@ const filters = {
 	    value = value.toString();
 	    return value.charAt(0).toUpperCase() + value.slice(1);
 	},
-	//大小写(两个参数)
 	aA: function(value, flag){	//flag为true时，全大写，否则全小写
 		if (!value){
 			return '';
@@ -30,7 +28,6 @@ const filters = {
 			return '';
 		}
 		return value.split(" ")[0];
-//		return value.slice(0,10);
 	}
 }
 
