@@ -13,8 +13,7 @@
     "description": {
       "type": "string",
       "required": false,
-      "message": "给你的项目加点描述",
-      "default": "试用zds结构"
+      "message": "给你的项目加点描述"
     },
     "author": {
       "type": "string",
