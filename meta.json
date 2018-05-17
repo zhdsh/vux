@@ -8,8 +8,7 @@
     "version": {
       "type": "string",
       "required": true,
-      "message": "你项目的版本号",
-      "default": "1.0.0"
+      "message": "你项目的版本号"
     },
     "description": {
       "type": "string",
