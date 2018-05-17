@@ -5,8 +5,17 @@ import FastClick from 'fastclick'
 import App from './App'
 import router from './router/index'
 import store from './store/index'
+import directives from './directives/autoFocus'
+import myPlugin from './plugins'
+Vue.use(myPlugin);
 
-FastClick.attach(document.body)
+Object.keys(directives).forEach((curVal,index,arr)=>{
+//	console.log(curVal,index,arr);
+	Vue.directive(curVal,directives[curVal]);
+})
+
+
+FastClick.attach(document.body);
 
 Vue.config.productionTip = false
 
@@ -14,5 +23,7 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
+//directives:{...directives},
+//directives:directives,
   render: h => h(App)
 }).$mount('#app-box')
