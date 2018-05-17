@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 	'/api': {
         target: 'http://xxxxxx.com', // 接口的域名
         // secure: false,  // 如果是https接口，需要配置这个参数
