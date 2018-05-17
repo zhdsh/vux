@@ -19,7 +19,7 @@
     "author": {
       "type": "string",
       "message": "作者"
-    },
+    }
   },  
   "completeMessage": "请按以下步骤启动，耐心等待:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm i\n  npm run dev 或者 npm start"
 }
